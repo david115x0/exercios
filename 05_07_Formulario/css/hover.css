@@ -1,0 +1,22 @@
+
+h1:hover{
+    color: white;
+}
+
+button.btn:hover {
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='password']:hover{
+    background-color: purple;
+    border-radius: 3px;
+
+}
+
+::placeholder{
+    color: grey;
+}
